@@ -25,10 +25,10 @@ class MyApp extends StatelessWidget {
               boxShadow: [
                 BoxShadow(
                   color: const Color.fromARGB(255, 191, 230, 255)
-                      .withOpacity(0.5), // Color de la sombra
-                  spreadRadius: 7, // Extensión de la sombra
-                  blurRadius: 5, // Difuminado de la sombra
-                  offset: const Offset(2, 4), // Desplazamiento de la sombra
+                      .withOpacity(0.5), 
+                  spreadRadius: 7, 
+                  blurRadius: 5, 
+                  offset: const Offset(2, 4),
                 )
               ],
               borderRadius: BorderRadius.circular(15.0),
@@ -113,7 +113,6 @@ class _CalculatorState extends State<Calculator> {
             alignment: Alignment.bottomRight,
             padding: EdgeInsets.all(15.0),
 
-            ///tamaño de p
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
                 color: const Color.fromARGB(255, 186, 190, 198),
